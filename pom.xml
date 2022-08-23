@@ -7,6 +7,22 @@
     <groupId>vimfun</groupId>
     <artifactId>javacode4clojure</artifactId>
     <version>1.0.0</version>
+    <name>jc</name>
+    <description>hi i am vimfun</description>
+    <url>https://github.com/vimfun/javacode4clojure</url>
+
+    <licenses>
+        <license>
+            <name>Eclipse Public License</name>
+            <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>vimfun</name>
+        </developer>
+    </developers>
 
     <dependencies>
         <dependency>
@@ -20,6 +36,14 @@
             <version>2.3.3</version>
         </dependency>
     </dependencies>
+
+    <scm>
+        <url>https://github.com/vimfun/javacode4clojure</url>
+        <connection>scm:git:git://github.com/vimfun/javacode4clojure.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/vimfun/javacode4clojure.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 
     <build>
         <plugins>
